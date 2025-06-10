@@ -118,7 +118,7 @@ export default function BabXIV() {
                   <AccordionContent className="space-y-4 pt-4">
                     <ol className="list-decimal pl-6 space-y-4">
                       <li>
-                        Setiap perbedaan yang dapat menimbulkan perselisihan antara Perusahaan dan RA Karyawan sehubungan dengan pelaksanaan Peraturan Perusahaan ini, pada tahap awal harus segera dibicarakan dan diselesaikan di lingkungan Perusahaan melalui musyawarah untuk mufakat dengan atasan langsung atau pihak terkait.
+                        Setiap perbedaan yang dapat menimbulkan perselisihan antara Perusahaan dan Karyawan sehubungan dengan pelaksanaan Peraturan Perusahaan ini, pada tahap awal harus segera dibicarakan dan diselesaikan di lingkungan Perusahaan melalui musyawarah untuk mufakat dengan atasan langsung atau pihak terkait.
                       </li>
                       <li>
                         Apabila pada tahap awal tidak dapat diselesaikan, maka keduanya atau salah satunya dapat mengupayakan penyelesaian perselisihan melalui Lembaga penyelesaian perselisihan hubungan industrial sesuai dengan peraturan perundang-undangan yang berlaku.
