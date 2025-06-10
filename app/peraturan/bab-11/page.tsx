@@ -1,9 +1,7 @@
 "use client";
 
 import React from "react";
-
 import type { ReactElement } from "react";
-
 import { useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -321,8 +319,8 @@ export default function BabSebelas(): ReactElement {
                           Pelanggaran-pelanggaran yang dikenakan Surat
                           Peringatan Pertama (SP I) antara lain adalah:
                         </p>
-                        <ol className="list-[lower-alpha] pl-6 space-y-2 mt-2">
-                          <li>
+                        <ol className=" pl-6 space-y-2 mt-2">
+                          <li className="relative pl-5 text-justify before:content-['a.'] before:absolute before:left-0">
                             Terlambat masuk kerja atau pulang sebelum waktunya 4
                             (empat) kali berturut-turut atau 5 (lima) kali tidak
                             berturut-turut dalam sebulan atau tanpa alasan yang
@@ -330,165 +328,165 @@ export default function BabSebelas(): ReactElement {
                             Pimpinan Perusahaan, sesuai dengan Pasal 22 pada
                             Peraturan Perusahaan di atas.
                           </li>
-                          <li>Mangkir 5 (lima) hari kerja dalam sebulan.</li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['b.'] before:absolute before:left-0">Mangkir 5 (lima) hari kerja dalam sebulan.</li>
+                          <li className="relative pl-5 text-justify before:content-['c.'] before:absolute before:left-0">
                             Meninggalkan tempat kerja pada jam-jam kerja tanpa
                             seijin Atasan.
                           </li>
-                          <li>Tidur atau bermalas-malasan pada jam kerja.</li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['d.'] before:absolute before:left-0">Tidur atau bermalas-malasan pada jam kerja.</li>
+                          <li className="relative pl-5 text-justify before:content-['e.'] before:absolute before:left-0">
                             Datang ke tempat kerja, apabila karyawan dinyatakan
                             oleh Dokter mengidap penyakit menular atau alasan
                             medis lainnya yang berbahaya, baik untuk dirinya
                             atau sesama karyawan atau lingkungan kerjanya.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['f.'] before:absolute before:left-0">
                             Menerima tamu pribadi dalam jam kerja tanpa ijin
                             atasan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['g.'] before:absolute before:left-0">
                             Mengabaikan pemeliharaan kebersihan ruang kerja atau
                             alat perlengkapan kerja.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['h.'] before:absolute before:left-0">
                             Menfitnah dan/atau memasang tulisan atau gambar yang
                             mempermalukan orang lain.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['i.'] before:absolute before:left-0">
                             Melakukan pekerjaan yang bukan menjadi tugasnya
                             tanpa sepengetahuan dan persetujuan dari kepala
                             bagian departemen atau orang yang bertanggung jawab.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['j.'] before:absolute before:left-0">
                             Melakukan perbuatan yang bertentangan dengan norma
                             sosial atau sopan santun.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['k.'] before:absolute before:left-0">
                             Pelanggaran lainnya yang dipandang pantas oleh
                             Perusahaan untuk diberikan Surat Peringatan Pertama
                             (SPI).
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['l.'] before:absolute before:left-0">
                             Melakukan pelanggaran yang jenis atau berat
                             pelanggarannya dapat dikenakan sanksi Surat
                             Peringatan Pertama (SP I) dan/atau lebih rendah
                             sedangkan yang bersangkutan masih menjalani Surat
                             Peringatan Pertama (SPI).
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['m.'] before:absolute before:left-0">
                             Terlambat masuk kerja atau pulang sebelum waktunya 5
                             (lima) kali berturut-turut atau 7 (tujuh) kali tidak
                             berturut-turut dalam sebulan tanpa alasan yang dapat
                             dipertanggungjawabkan dan/atau tanpa izin Pimpinan
                             Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['n.'] before:absolute before:left-0">
                             Mangkir 7 (tujuh) hari kerja berturut-turut atau 8
                             (delapan) hari kerja tidak berturut-turut dalam
                             sebulan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['o.'] before:absolute before:left-0">
                             Tidak melaporkan kepada Atasan tentang adanya
                             pelanggaran tata tertib kerja dan/atau gangguan
                             keamanan yang diketahuinya dapat merugikan
                             Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['p.'] before:absolute before:left-0">
                             Tidak cakap melakukan pekerjaan sehingga tidak
                             mencapai standar prestasi kerja atau target
                             penjualan minimal dalam jangka waktu yang telah
                             ditetapkan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['q.'] before:absolute before:left-0">
                             Tidak memperhatikan dan tidak bersedia melaksanakan
                             petunjuk Atasan mengenai tugas yang harus
                             dikerjakan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['r.'] before:absolute before:left-0">
                             Tidak bersedia bekerja sama dengan teman sekerja
                             atau dengan Atasan dalam melaksanakan tugasnya.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['s.'] before:absolute before:left-0">
                             Bekerja tidak sesuai dengan standar dan prosedur
                             operasional kerja yang telah ditetapkan Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['t.'] before:absolute before:left-0">
                             Melakukan dan/atau mengambil pekerjaan dan/atau
                             tugas yang bukan bidangnya tanpa seijin atasan, yang
                             mengakibatkan kerugian bagi perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['u.'] before:absolute before:left-0">
                             Terbukti mempunyai hubungan lain diluar pekerjaan
                             dengan pihak ketiga yang dapat menyebabkan kerugian
                             terhadap perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['v.'] before:absolute before:left-0">
                             Melakukan pelanggaran peraturan lalu lintas yang
                             disebabkan oleh kelalaian/kecerobohan ketika
                             menggunakan kendaraan Perusahaan atau pelanggan
                             Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['w.'] before:absolute before:left-0">
                             Pelanggaran lainnya yang dipandang pantas oleh
                             Perusahaan untuk diberikan Surat Peringatan Kedua
                             (SP II).
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['x.'] before:absolute before:left-0">
                             Melakukan pelanggaran yang jenis atau berat
                             pelanggarannya dapat dikenakan sanksi Surat
                             Peringatan Kedua (SP II) dan/atau lebih rendah
                             sedangkan yang bersangkutan masih menjalani Surat
                             Peringatan Kedua (SP II).
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['y.'] before:absolute before:left-0">
                             Terlambat masuk kerja 6 (enam) kali berturut-turut
                             atau 10 (sepuluh) kali tidak berturut-turut dalam
                             sebulan tanpa alasan yang dapat
                             dipertanggungjawabkan dan/atau tanpa izin Pimpinan
                             Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['z.'] before:absolute before:left-0">
                             Mangkir 9 (sembilan) hari kerja berturut-turut atau
                             10 (sepuluh) hari kerja tidak berturut-turut dalam
                             sebulan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['aa.'] before:absolute before:left-0">
                             Mempergunakan barang-barang milik Perusahaan
                             dan/atau perlengkapan milik Perusahaan untuk
                             kepentingan pribadi tanpa seizin Pimpinan
                             Perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['bb.'] before:absolute before:left-0">
                             Menyalahgunakan barang-barang milik Perusahaan yang
                             dipercayakan kepadanya untuk kepentingan dan
                             keuntungan pribadi ataupun pihak ketiga lainnya.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['cc.'] before:absolute before:left-0">
                             Dalam melaksanakan tugas menolak menggunakan
                             alat-alat atau perlengkapan kesehatan dan
                             keselamatan kerja sebagaimana mestinya.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['dd.'] before:absolute before:left-0">
                             Menolak untuk mentaati perintah atau penugasan yang
                             layak dari Atasan atau Pimpinan Perusahaan termasuk
                             di dalamnya menolak untuk dimutasikan, baik di dalam
                             ataupun di luar Perusahaan dalam satu group.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['ee.'] before:absolute before:left-0">
                             Mengendarai atau mengoperasikan kendaraan, mesin,
                             dan peralatan lainnya dalam tempat kerja tanpa
                             wewenang untuk itu.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['ff.'] before:absolute before:left-0">
                             Melakukan pekerjaan yang sifatnya sebagai rekanan
                             perusahaan dan/atau dengan perusahaan yang dianggap
                             sebagai kompetitor oleh perusahaan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['gg.'] before:absolute before:left-0">
                             Memindahkan barang milik Perusahaan dari tempatnya
                             dengan niat untuk memiliki.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['hh.'] before:absolute before:left-0">
                             Di dalam Tempat Kerja menyelenggarakan atau
                             menghadiri rapat/pertemuan, mengedarkan atau
                             menempelkan poster, plakat, surat edaran, selebaran,
@@ -496,20 +494,20 @@ export default function BabSebelas(): ReactElement {
                             dengan kepentingan Perusahaan tanpa ijin yang
                             berwenang.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['ii.'] before:absolute before:left-0">
                             Melakukan perbuatan yang dapat mengganggu
                             ketertiban/ketentraman kerja atau menimbulkan
                             keonaran.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['jj.'] before:absolute before:left-0">
                             Kedapatan menyimpan barang milik Perusahaan di dalam
                             locker tanpa alasan yang sah.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['kk.'] before:absolute before:left-0">
                             Melakukan perbuatan yang dapat menimbulkan kerugian
                             bagi orang lain atau Perusahan.
                           </li>
-                          <li>
+                          <li className="relative pl-5 text-justify before:content-['ll.'] before:absolute before:left-0">
                             Pelanggaran lainnya yang dipandang pantas oleh
                             perusahaan untuk diberikan Surat Peringatan Ketiga
                             (SP III).
