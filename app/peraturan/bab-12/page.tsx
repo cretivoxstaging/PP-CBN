@@ -1,11 +1,8 @@
 "use client"
 
 import { useEffect } from "react"
-
 import { useRef } from "react"
-
 import { useSearchParams } from "next/navigation"
-
 import React from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -525,7 +522,7 @@ export default function Bab12() {
               <div ref={pasal51Ref}>
                 <AccordionItem value="pasal-51" id="pasal-51">
                   <AccordionTrigger className="text-lg md:text-xl text-left font-semibold">
-                    PASAL 51: Uang Pesangon, Uang Penghargaan Masa Kerja Uang Penggantian Hak
+                    PASAL 51: Uang Pesangon, Uang Penghargaan Masa Kerja, dan Uang Penggantian Hak
                   </AccordionTrigger>
                   <AccordionContent className="space-y-4 pt-4">
                     <ol className="list-decimal pl-6 space-y-4">
