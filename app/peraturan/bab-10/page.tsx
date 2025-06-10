@@ -1,9 +1,7 @@
 "use client"
 
 import React from "react"
-
 import type { ReactElement } from "react"
-
 import { useEffect, useRef } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
@@ -178,7 +176,7 @@ export default function BabSepuluh(): ReactElement {
                         serta peraturan yang ditetapkan oleh pelanggan/klien Perusahaan.
                       </li>
                       <li className="ml-1">
-                        Setiap Karyawan wajib mematuhi jam kerja yang ditetapkan Perusahaan, yaitu dating ke tempat
+                        Setiap Karyawan wajib mematuhi jam kerja yang ditetapkan Perusahaan, yaitu datang ke tempat
                         kerja tepat waktu dan tidak pulang sebelum jam kerja berakhir yang telah ditentukan serta tidak
                         menyalahgunakan waktu kerja.
                       </li>
@@ -198,7 +196,7 @@ export default function BabSepuluh(): ReactElement {
                       </li>
                       <li className="ml-1">
                         Setiap Karyawan wajib bersikap sopan, saling menghormati, dan berprilaku baik terhadap atasan,
-                        sesame karyawan, hubungan bisnis dengan klien, menjaga kesopanan baik didalam maupun diluar
+                        sesama karyawan, hubungan bisnis dengan klien, menjaga kesopanan baik didalam maupun diluar
                         Perusahaan serta memperhatikan pakaian dan dandanan sebagai Karyawan yang profesional.
                       </li>
                       <li className="ml-1">
