@@ -1,9 +1,7 @@
 "use client"
 
 import React from "react"
-
 import type { ReactElement } from "react"
-
 import { useEffect, useRef } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
@@ -255,7 +253,7 @@ export default function BabEnam(): ReactElement {
               <div ref={pasal26Ref}>
                 <AccordionItem value="pasal-26" id="pasal-26">
                   <AccordionTrigger className="text-lg md:text-xl text-left font-semibold">
-                    PASAL 26: Perawatan di Rumah Sakit PEMERINTAH
+                    PASAL 26: Perawatan di Rumah Sakit
                   </AccordionTrigger>
                   <AccordionContent className="space-y-4 pt-4">
                     <ol className="list-decimal pl-6 sm:pl-8 md:pl-10 space-y-2">
