@@ -395,10 +395,6 @@ export default function Bab12() {
                         terlarang untuk itu
                       </li>
                       <li>
-                        Menyalakan api atau merokok di dalam bengkel/gudang atau tempat-tempat lain yang nyata-nyata
-                        terlarang untuk itu
-                      </li>
-                      <li>
                         Tanpa wewenang dan/atau ijin dari instansi yang berwenang membawa senjata api/tajam/petasan/
                         bahan peledak atau barang-barang yang membahayakan lainnya ke dalam Tempat Kerja
                       </li>
